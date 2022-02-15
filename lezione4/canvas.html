@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio Canvas</title>
+</head>
+<body>
+    <h1>Esempio di canvas</h1>
+
+<canvas style="border: 1px solid black;" id="mycanvas" width="250" height="250"></canvas>
+
+<script>
+    function disegna(){
+        var canvas = document.getElementById("mycanvas");
+        if(canvas.getContext) {
+            var context = canvas.getContext('2d');
+            // context.fillStyle = 'rgb(200,0,0)';
+            // context.fillRect(30,30,50,50);
+            context.fillStyle = 'rgba(0,0,200, 0.5)';
+            // context.fillRect(10,10,50,50);
+
+            // context.beginPath();
+            // context.moveTo(75,50);
+            // context.lineTo(100,75);
+            // context.lineTo(100,25);
+            // context.fill();
+
+            // context.beginPath();
+            // context.arc(75,75,50,0, Math.PI * 2, true);
+            // context.stroke();
+
+            context.beginPath();
+            context.moveTo(75,25);
+            context.quadraticCurveTo(25,25,25,62.5);
+            context.quadraticCurveTo(25,100,50,100);
+            context.quadraticCurveTo(50,120,30,125);
+            context.quadraticCurveTo(60,120,125,100);
+            context.quadraticCurveTo(125,100,125,62.5);
+            context.quadraticCurveTo(125,25,75,25);
+            context.stroke();
+
+        }
+    }
+
+     disegna();
+
+</script>
+
+
+</body>
+</html>

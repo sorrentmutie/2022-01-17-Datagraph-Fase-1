@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1>Demo geolocation</h1>
+<button id="trovami">Dimmi la posizione</button>
+<a id="mappa">Mappa</a>
+<p id="accuracy"></p>
+<div id="map" style="height:500px; width:100%"></div>
+
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQIz3bxUElBcxofJ4plvhT0da4gJPs7zg"
+      async></script>
+
+    <script>
+        // console.log(navigator);
+        // if('geolocation' in navigator){
+        //     console.log('geolocation attivata');
+        // } else {
+        //     console.log('geolocation non attivata');
+        // }
+
+
+
+
+        var options = {
+            enableHighAccuracy: true,
+            timeout: 5000,
+            maximumAge: 0
+        };
+
+
+        document.getElementById("trovami").addEventListener(
+            'click', function() {
+
+                if('geolocation' in navigator){
+                    console.log('geolocation attivata');
+                    navigator.geolocation.getCurrentPosition(success, failure, options);
+                    
+                } else {
+                    console.log('geolocation non attivata');
+                }
+            }
+        );
+
+        function success(position){
+            if(position && position.coords) {
+                var latitudine = position.coords.latitude;
+                var longitudine = position.coords.longitude;
+                var accuracy = position.coords.accuracy;
+
+                var url = "https://www.openstreetmap.org/#map=18/" + latitudine+ "/" +
+                longitudine;
+
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    center: { lat: latitudine, lng: longitudine },
+                    zoom: 16,
+                });
+
+
+
+                document.getElementById("mappa").href = url;
+                document.getElementById("accuracy").innerText = accuracy;
+            }
+        }
+
+        function failure(error){
+            console.log('codice di errore: ' + error.code);
+        }
+
+    </script>
+</body>
+</html>
