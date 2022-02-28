@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    height:80vh;
+    grid-template-columns: 4fr 1fr 1fr 200px 100px;
+    grid-template-rows: repeat(5,15%);
+    grid-gap: 2%;
+
+}
+
+.mydiv {
+    border: 1px solid green;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+}

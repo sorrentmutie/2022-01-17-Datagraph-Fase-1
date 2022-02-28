@@ -1,0 +1,103 @@
+.center {
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin: auto;
+    text-align:center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.span-a {
+    background-color: yellow;
+    border: 1px solid green;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.span-b {
+    display: inline-block;
+    background-color: yellow;
+    border: 1px solid green;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.span-c {
+    display: block;
+    background-color: yellow;
+    border: 1px solid green;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+/* @media only screen and (max-width: 1200px){
+    body{
+        background-color: blue;
+    }
+} */
+
+.myclass {
+    background-color: burlywood;
+    width: 30%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .myclass { 
+        width: 60.0%;
+        background-color: red;
+     }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+    .myclass { 
+        width: 60.0%;
+        background-color: yellow;
+     }
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    border: 2px solid blue;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 200px;
+}
+
+.elemento {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid red;
+}
+
+
+.elementoB {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid red;
+    align-self:center;
+}
+
+.elementoGrow {
+    flex-grow: 1;
+    background-color: white;
+    color: black;
+
+}
+
+.elementoGrowB {
+    flex-grow: 2;
+    background-color: white;
+    color: black;
+
+}

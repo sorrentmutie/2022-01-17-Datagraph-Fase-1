@@ -1,0 +1,39 @@
+﻿@model List<Ristorante>
+@{
+    var a = "Mio primo esempio di binding";
+}
+
+
+@section Scripts {
+    <script>
+        var a = 5;
+        function sum(a,b) {return a+b;}
+    </script>
+}
+
+
+<h1>La mia prima visualizzazione: @a</h1>
+@*<h2>@Model.Nome</h2>*@
+
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Stelle</th>
+            <th>Indirizzo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var ristorante in Model){
+            <tr>
+                <td>@ristorante.Id</td>
+                <td>@ristorante.Nome</td>
+                <td>@ristorante.Stelle</td>
+                <td>@ristorante.Indirizzo</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

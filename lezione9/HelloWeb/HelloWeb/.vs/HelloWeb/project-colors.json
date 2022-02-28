@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "008b6f49-5841-49b0-9b63-8150796204aa": {
+      "ProjectGuid": "008b6f49-5841-49b0-9b63-8150796204aa",
+      "DisplayName": "HelloWeb",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

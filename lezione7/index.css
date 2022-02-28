@@ -1,0 +1,38 @@
+#wrapper {
+    
+    background-color: burlywood;
+    width: 900px;
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 5px;
+    height: 360px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.articolo1 {
+    background-color: blueviolet;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+   margin: auto;
+}
+
+#parag {
+    background-color: yellow;
+    color: black;
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 5%;
+    margin-left: -35px;
+
+}
