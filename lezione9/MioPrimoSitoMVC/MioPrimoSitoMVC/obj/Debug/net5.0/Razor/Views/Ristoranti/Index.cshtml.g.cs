@@ -26,8 +26,15 @@ using MioPrimoSitoMVC.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\MioPrimoSitoMVC\Views\_ViewImports.cshtml"
+using Datagraph.Models.Protocollo.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"527c7ae54c053cf708f3bec6359c68a3747128a8", @"/Views/Ristoranti/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1844098f859e37772489132925af7f8470d4bdc0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bcfb9cc0f4a9016396f6e291305888e30e132474", @"/Views/_ViewImports.cshtml")]
     public class Views_Ristoranti_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Ristorante>>
     {
         #pragma warning disable 1998

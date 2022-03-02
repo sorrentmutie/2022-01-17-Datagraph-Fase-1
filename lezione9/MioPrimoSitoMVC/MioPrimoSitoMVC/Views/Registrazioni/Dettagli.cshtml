@@ -1,0 +1,41 @@
+﻿@model Datagraph.Models.Protocollo.Registrazione
+
+@{
+    ViewData["Title"] = "Dettagli";
+}
+
+<h1>Registrazione numero @Model.Numero</h1>
+
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">@Model.Id</div>
+  <div class="card-body">
+    <h4 class="card-title">@Model.DataRegistrazione</h4>
+    <p class="card-text">@Model.Oggetto</p>
+  </div>
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Cognome</th>
+    </tr>
+  </thead>
+  <tbody>
+        @foreach(var soggetto in Model.Soggetti)
+        {
+            <tr>
+                <td>@soggetto.Id</td>
+                <td>@soggetto.Nome</td>
+                <td>@soggetto.Cognome</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<div>
+    @Html.ActionLink("Modifica", "Modifica", new { id = Model.Id }, new {@class="btn btn-info" }) 
+    <a asp-action="Index" class="btn btn-info">Torna alla lista</a>
+</div>

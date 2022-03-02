@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MioPrimoSitoMVC", "MioPrimoSitoMVC\MioPrimoSitoMVC.csproj", "{53DD1806-C973-4489-BB5E-E735C2CF64BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MioPrimoSitoMVC", "MioPrimoSitoMVC\MioPrimoSitoMVC.csproj", "{53DD1806-C973-4489-BB5E-E735C2CF64BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datagraph.Models", "Datagraph.Models\Datagraph.Models.csproj", "{E691193A-8DDF-480B-A752-159D538C125A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datagraph.Services", "Datagraph.Services\Datagraph.Services.csproj", "{AC3581AF-68ED-45E0-A654-FD2027F09CAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{53DD1806-C973-4489-BB5E-E735C2CF64BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DD1806-C973-4489-BB5E-E735C2CF64BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DD1806-C973-4489-BB5E-E735C2CF64BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E691193A-8DDF-480B-A752-159D538C125A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E691193A-8DDF-480B-A752-159D538C125A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E691193A-8DDF-480B-A752-159D538C125A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E691193A-8DDF-480B-A752-159D538C125A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3581AF-68ED-45E0-A654-FD2027F09CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3581AF-68ED-45E0-A654-FD2027F09CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3581AF-68ED-45E0-A654-FD2027F09CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3581AF-68ED-45E0-A654-FD2027F09CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

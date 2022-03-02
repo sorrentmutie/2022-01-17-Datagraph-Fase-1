@@ -1,0 +1,15 @@
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\Datagraph.Services.deps.json
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\Datagraph.Services.dll
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\ref\Datagraph.Services.dll
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\Datagraph.Services.pdb
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\Datagraph.Models.dll
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\bin\Debug\net5.0\Datagraph.Models.pdb
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.AssemblyInfoInputs.cache
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.AssemblyInfo.cs
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.csproj.CoreCompileInputs.cache
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.csproj.CopyComplete
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.dll
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\ref\Datagraph.Services.dll
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.pdb
+E:\corsi\Datagraph\Fase2\MioPrimoSitoMVC\Datagraph.Services\obj\Debug\net5.0\Datagraph.Services.csproj.AssemblyReference.cache

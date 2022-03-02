@@ -5,7 +5,17 @@
       "ProjectGuid": "53dd1806-c973-4489-bb5e-e735c2cf64be",
       "DisplayName": "MioPrimoSitoMVC",
       "ColorIndex": 0
+    },
+    "e691193a-8ddf-480b-a752-159d538c125a": {
+      "ProjectGuid": "e691193a-8ddf-480b-a752-159d538c125a",
+      "DisplayName": "Datagraph.Models",
+      "ColorIndex": 1
+    },
+    "ac3581af-68ed-45e0-a654-fd2027f09caf": {
+      "ProjectGuid": "ac3581af-68ed-45e0-a654-fd2027f09caf",
+      "DisplayName": "Datagraph.Services",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
