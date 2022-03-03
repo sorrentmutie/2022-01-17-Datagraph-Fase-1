@@ -13,5 +13,6 @@ namespace Datagraph.Services.Protocollo
         List<Registrazione> EstraiRegistrazioni(int NumeroPagina, int ElementiPagina);
         Registrazione EstraiRegistrazionePerId(int Id);
         int CreaRegistrazione(ViewModelCreazioneRegistrazione NuovaRegistrazione);
+        Registrazione EstraiUltimaRegistrazione();
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ELQojAk6oF2vTMUcfw7ADxBMDvEuMhtrCim8fPrdYD2Xjajdmf0fC3eJKlbX6CvCwkMjYzvxh/1NlJ1oR9V7w==",
+  "dgSpecHash": "MjavVvzT9//69/3a06pWDvD4V4t2JcZe71KrJF8tTwR+3BgLSXVHodz0UTnQf1g+fEG0mr0Bvf0WGHuxoeKrTA==",
   "success": true,
-  "projectFilePath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
+  "projectFilePath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salvatore\\.nuget\\packages\\genfu\\1.6.0\\genfu.1.6.0.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj": {}
+    "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj": {}
   },
   "projects": {
-    "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
+    "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj",
+        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj",
         "projectName": "Datagraph.Models",
-        "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj",
+        "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj",
         "packagesPath": "C:\\Users\\salvatore\\.nuget\\packages\\",
-        "outputPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\obj\\",
+        "outputPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj": {
+    "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
+        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
         "projectName": "Datagraph.Services",
-        "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
+        "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj",
         "packagesPath": "C:\\Users\\salvatore\\.nuget\\packages\\",
-        "outputPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\obj\\",
+        "outputPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
-                "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj"
+              "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
+                "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj": {
+    "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
+        "projectUniqueName": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
         "projectName": "MioPrimoSitoMVC",
-        "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
+        "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
         "packagesPath": "C:\\Users\\salvatore\\.nuget\\packages\\",
-        "outputPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\obj\\",
+        "outputPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -164,11 +164,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
-                "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj"
+              "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj": {
+                "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Models\\Datagraph.Models.csproj"
               },
-              "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj": {
-                "projectPath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj"
+              "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj": {
+                "projectPath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\Datagraph.Services\\Datagraph.Services.csproj"
               }
             }
           }

@@ -6,13 +6,9 @@
 
 <h1>Registrazione numero @Model.Numero</h1>
 
-<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-  <div class="card-header">@Model.Id</div>
-  <div class="card-body">
-    <h4 class="card-title">@Model.DataRegistrazione</h4>
-    <p class="card-text">@Model.Oggetto</p>
-  </div>
-</div>
+@await Html.PartialAsync("_CardRegistrazione", @Model)
+
+
 
 <table class="table table-hover">
   <thead>

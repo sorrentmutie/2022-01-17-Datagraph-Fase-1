@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BKvVAxkHmE5wxhDI6s8PKTUXQkvw9jqzFnrGJj7UYsK3EKkyjNhoIX1/wecup8BFqf2R8bgnZj8DRfIptI0I1A==",
+  "dgSpecHash": "9LY14ApGk+scv+vH4gZtcRUT3X2bllc3krcA/MFIQ+TwpwhAbzB0IklqQYBu8yGIErjpowG90eHkR0chto+PHw==",
   "success": true,
-  "projectFilePath": "E:\\corsi\\Datagraph\\Fase2\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
+  "projectFilePath": "E:\\corsi\\Datagraph\\Fase1\\lezione9\\MioPrimoSitoMVC\\MioPrimoSitoMVC\\MioPrimoSitoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salvatore\\.nuget\\packages\\genfu\\1.6.0\\genfu.1.6.0.nupkg.sha512",
     "C:\\Users\\salvatore\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

@@ -58,5 +58,10 @@ namespace Datagraph.Services.Protocollo
             return registrazioni.Skip((NumeroPagina -1)* ElementiPagina).Take(ElementiPagina)
                 .ToList();
         }
+
+        public Registrazione EstraiUltimaRegistrazione()
+        {
+            return registrazioni.OrderByDescending(x => x.Numero).FirstOrDefault();
+        }
     }
 }
